@@ -1,0 +1,59 @@
+/* -*-c-*-
+ * rsrc.rc
+ * $Id: rsrc.rc,v 1.11 2006/09/01 17:20:16 bobi Exp $
+ */
+
+
+#define APSTUDIO_READONLY_SYMBOLS
+#include "afxres.h"
+#undef APSTUDIO_READONLY_SYMBOLS
+
+
+VS_VERSION_INFO VERSIONINFO
+  FILEVERSION VER_MAJOR, VER_MINOR, VER_PATCH, 0
+  PRODUCTVERSION VER_MAJOR, VER_MINOR, VER_PATCH, 0
+  FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+  FILEFLAGS 0x1L
+#else
+  FILEFLAGS 0x0L
+#endif
+  FILEOS 0x40004L
+  FILETYPE 0x1L
+  FILESUBTYPE 0x0L
+BEGIN
+  BLOCK "StringFileInfo"
+  BEGIN
+    BLOCK "040904b0"
+    BEGIN
+      VALUE "Comments",
+            "hdl_dump - Windows-based game installer for HD Loader\r\n"
+            "Wizard of 0z (AKA b...)\r\n"
+            "http://hdldump.ps2-scene.org/\r\n"
+            "w1zard0f07@yahoo.com\0"
+
+      VALUE "CompanyName",
+            "Wizard of 0z (AKA b...)\r\n"
+            "http://hdldump.ps2-scene.org/\r\n"
+            "w1zard0f07@yahoo.com\0"
+
+      VALUE "FileDescription", "hdl_dump - Windows-based game installer for HD Loader\0"
+      VALUE "FileVersion", "0, 8, 6, 0\0"
+      VALUE "InternalName", "hdl_dump\0"
+      VALUE "LegalCopyright", "© 2004, 2005, 2006 Wizard of 0z\0"
+      VALUE "LegalTrademarks",
+            "Credits goes for Sony and the creators of HD Loader. "
+            "Remember guys, you're the one, that opened Pandora's box.\0"
+
+      VALUE "OriginalFilename", "hdl_dump.exe\0"
+      VALUE "PrivateBuild", "\0"
+      VALUE "ProductName", "hdl_dump\0"
+      VALUE "ProductVersion", "0, 8, 6, 0\0"
+      VALUE "SpecialBuild", "command-line\0"
+    END
+  END
+  BLOCK "VarFileInfo"
+    BEGIN
+      VALUE "Translation", 0x409, 1200
+    END
+END
